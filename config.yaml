@@ -1,0 +1,12 @@
+# config.yaml
+job_settings:
+  base_raw_source_path: "abfss://staging@bmrnpocstorage.dfs.core.windows.net/raw/"
+  catalog_name: "genie_poc"
+  schema_name: "bronze"
+  autoloader_base_checkpoint_path: "abfss://staging@bmrnpocstorage.dfs.core.windows.net/_checkpoints/autoloader/"
+
+datasets:
+  - subdir: "dataset_1"
+    target_table: "dev_csv_dataset_1"
+  - subdir: "dataset_2"
+    target_table: "dev_csv_dataset_2
