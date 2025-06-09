@@ -1,0 +1,114 @@
+{
+    "schemas": {
+        "dataset_1": {
+            "fields": [
+                {
+                    "name": "registration_number",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Unique registration number of the student",
+                    "is_primary_key": true
+                },
+                {
+                    "name": "first_name",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Student's first name"
+                },
+                {
+                    "name": "last_name",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Student's last name"
+                },
+                {
+                    "name": "email",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Student's email address"
+                },
+                {
+                    "name": "date_of_birth",
+                    "type": "date",
+                    "nullable": false,
+                    "description": "Student's date of birth",
+                    "date_formats": ["dd/MM/yyyy"]
+                },
+                {
+                    "name": "blood_group",
+                    "type": "string",
+                    "nullable": true,
+                    "description": "Student's blood group"
+                },
+                {
+                    "name": "total_marks",
+                    "type": "decimal(5,2)",
+                    "nullable": true,
+                    "description": "Total marks obtained by the student"
+                },
+                {
+                    "name": "grade",
+                    "type": "string",
+                    "nullable": true,
+                    "description": "Grade obtained by the student"
+                },
+                {
+                    "name": "enrollment_date",
+                    "type": "date",
+                    "nullable": false,
+                    "description": "Date when student enrolled",
+                    "date_formats": ["dd/MM/yyyy"]
+                }
+            ],
+            "description": "Student information with academic details"
+        },
+        "dataset_2":{
+            "fields": [
+                {
+                    "name": "registration_number",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Student's registration number",
+                    "is_primary_key": true
+                },
+                {
+                    "name": "subject_code",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Code of the subject",
+                    "is_primary_key": true
+                },
+                {
+                    "name": "subject_name",
+                    "type": "string",
+                    "nullable": false,
+                    "description": "Name of the subject"
+                },
+                {
+                    "name": "marks_obtained",
+                    "type": "decimal(5,2)",
+                    "nullable": false,
+                    "description": "Marks obtained in the subject"
+                },
+                {
+                    "name": "maximum_marks",
+                    "type": "decimal(5,2)",
+                    "nullable": false,
+                    "description": "Maximum marks for the subject"
+                },
+                {
+                    "name": "exam_date",
+                    "type": "date",
+                    "nullable": false,
+                    "description": "Date of the exam",
+                    "date_formats": ["dd/MM/yyyy"]
+                }
+            ],
+            "description": "Subject-wise marks for each student"
+        }
+
+    }
+}
+
+
+
