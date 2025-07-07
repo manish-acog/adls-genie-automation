@@ -1,0 +1,6 @@
+registration_number,first_name,last_name,email,date_of_birth,blood_group,total_marks,grade,enrollment_date,,
+REG2024001,John,Smith,john.smith@university.edu,15/05/2000,A+,285,A,15/01/2024,,
+REG2024002,Emma,Johnson,emma.j@university.edu,22/03/2001,O+,266,B+,15/01/2024,,
+REG2024003,Michael,Brown,michael.b@university.edu,08/11/2000,AB+,276,A,16/01/2024,,
+REG2024004,Sophia,Williams,sophia.w@university.edu,30/07/2001,B+,256,B,16/01/2024,,
+REG2024005,James,Davis,james.d@university.edu,14/09/2000,A-,235.5,C+,17/01/2024,,
